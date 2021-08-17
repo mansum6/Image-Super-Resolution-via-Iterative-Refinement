@@ -1,5 +1,5 @@
 {
-    "name": "sr_ffhq",
+    "name": "ISR_Prob",
     "phase": "train", // train or val
     "gpu_ids": [
         0
