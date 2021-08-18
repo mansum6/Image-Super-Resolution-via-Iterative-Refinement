@@ -14,7 +14,7 @@
     },
     "datasets": {
         "train": {
-            "name": "FFHQ",
+            "name": "GTHH",
             "mode": "HR", // whether need LR img
             "dataroot": "/content/datasets/",
             "l_resolution": 64, // low resolution need to super_resolution
@@ -25,9 +25,9 @@
             "data_len": -1 // -1 represents all data used in train
         },
         "val": {
-            "name": "CelebaHQ",
+            "name": "GTHH",
             "mode": "LRHR",
-            "dataroot": "dataset/celebahq",
+            "dataroot": "/content/datasets/",
             "l_resolution": 64,
             "r_resolution": 512,
             "data_len": 50
